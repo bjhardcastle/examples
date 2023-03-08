@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+name = "examples"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ben Hardcastle", email = "ben.hardcastle@alleninstitute.org"},
+]
+dependencies = [
+    "ipykernel>=6.21.3",
+    "np-logging>=0.4.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+package-dir = "src"

@@ -1,0 +1,257 @@
+2023-03-08 00:30:24 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:102 session_type MainThread | Set session_type to 'hab'
+2023-03-08 00:43:12 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/donors/info/details.json?external_donor_name=366122
+2023-03-08 00:43:12 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:12 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /donors/info/details.json?external_donor_name=366122 HTTP/1.1" 200 None
+2023-03-08 00:43:12 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/specimens/isi_experiment_details/366122.json
+2023-03-08 00:43:12 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:12 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /specimens/isi_experiment_details/366122.json HTTP/1.1" 200 None
+2023-03-08 00:43:12 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/users.json?login=hannah.belski
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /users.json?login=hannah.belski HTTP/1.1" 200 None
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "POST /observatory/ecephys_session/create HTTP/1.1" 200 None
+2023-03-08 00:43:13 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:43:13 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:85 session MainThread | Set experiment.session to Session('1252424595_366122_20230308')
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_logging/defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_logging/defaults/logging' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_workflows/defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/np_defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/rigs/NP.0' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:372 no_record MainThread | Temporarily pausing record keeping <class 'np_config.np_config.RecordedZK'>.
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:378 no_record MainThread | Resuming record keeping <class 'np_config.np_config.RecordedZK'>.
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/np_defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_logging/defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_logging/defaults/logging' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/projects/np_workflows/defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/np_defaults/configuration' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/rigs/NP.0' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:372 no_record MainThread | Temporarily pausing record keeping <class 'np_config.np_config.RecordedZK'>.
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:378 no_record MainThread | Resuming record keeping <class 'np_config.np_config.RecordedZK'>.
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:240 write MainThread | Updated local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_config.np_config | DEBUG | np_config.py:255 __setitem__ MainThread | '/rigs/NP.0' updated in local config file C:\ProgramData\np\np_config\config_logs\zk_config-task_trained_network.2023-03-08_004253.yaml
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.port = 9000
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.timeout = 10.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.serialization = json
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.host = w10dtsm112722
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.rsc_app_id = mousedirector
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.port = 5000
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.data = c$/ProgramData/AIBS_MPE/sync/data
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.gb_per_hr = 2.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.min_rec_hr = 3.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.serialization = pickle
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.host = w10dtsm112719
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.rsc_app_id = sync_device
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.port = 50000
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.gb_per_hr = 2.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.min_rec_hr = 3.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.pretest_duration_sec = 5
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.data = c$/ProgramData/AIBS_MPE/mvr/data
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.timeout = 2.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.host = w10dtsm112722
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.rsc_app_id = mvr-ni
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.port = 11000
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.data = c$/Users/svc_neuropix/cv3dImages
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.rsc_app_id = camviewer3d
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.host = w10dtsm112722
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.port = 5000
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.data = c$/ProgramData/AIBS_MPE/camstim/data
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.gb_per_hr = 0.2
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.min_rec_hr = 3.0
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.serialization = json
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.host = W10DT713938
+2023-03-08 00:43:13 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.rsc_app_id = camstim_agent
+2023-03-08 00:43:13 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:43:13 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:43:13 | np_workflows.experiments.task_trained_network.main_ttn_pilot | INFO | main_ttn_pilot.py:169 new_experiment MainThread | Created new experiment session: Hab(1252424595_366122_20230308)
+2023-03-08 00:43:13 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:43:13 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:43:14 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json operatorID:  -> hannah.belski
+2023-03-08 00:43:14 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json sessionID:  -> 1252424595
+2023-03-08 00:43:14 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json mouseID:  -> 366122
+2023-03-08 00:43:14 | np_session.session | WARNING | session.py:459 experiment_start MainThread | Could not find experiment start time in //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json: using start of day instead
+2023-03-08 00:43:14 | np_session.session | WARNING | session.py:475 experiment_end MainThread | Could not find experiment end time in //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json: using end of day instead
+2023-03-08 00:43:14 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): mtrain:5000
+2023-03-08 00:43:14 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://mtrain:5000 "GET /get_script/ HTTP/1.1" 200 2067
+2023-03-08 00:43:14 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): mtrain:5000
+2023-03-08 00:43:14 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://mtrain:5000 "GET /get_behavior_sessions/ HTTP/1.1" 200 61824
+2023-03-08 00:43:14 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:43:14 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json sessionID: 1252424595 -> 1252424595
+2023-03-08 00:43:14 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:43:14 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json rig_id: None -> NP.0
+2023-03-08 00:43:14 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:43:14 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:44:21 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:44:21 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:44:21 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:44:21 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:44:21 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:44:22 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:44:30 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:44:30 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:44:30 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:44:30 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:44:30 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:44:30 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:48:56 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:48:56 | np_session.databases.redis | DEBUG | redis.py:77 connect MainThread | Connected to Redis database: Redis<ConnectionPool<Connection<host=redis-11877.c1.us-west-2-2.ec2.cloud.redislabs.com,port=11877,db=0>>>
+2023-03-08 00:49:13 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:49:29 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:49:32 | np_services.proxies | DEBUG | proxies.py:776 initialize MainThread | Cam3d | Initializing
+2023-03-08 00:49:32 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | camviewer3d is running on w10dtsm112722
+2023-03-08 00:49:32 | np_services.proxies | DEBUG | proxies.py:165 get_proxy MainThread | Creating Cam3d proxy to w10dtsm112722:11000
+2023-03-08 00:49:32 | np_services.proxies | INFO | proxies.py:139 initialize MainThread | Proxy(Cam3d) initialized: ready for use
+2023-03-08 00:49:32 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:49:34 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:49:34 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:49:35 | np_services.proxies | DEBUG | proxies.py:804 start MainThread | Cam3d | Starting
+2023-03-08 00:49:37 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Left image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_004935_brain_surface_image_left.png
+2023-03-08 00:49:37 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Right image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_004935_brain_surface_image_right.png
+2023-03-08 00:49:37 | np_services.proxies | DEBUG | proxies.py:818 finalize MainThread | Cam3d | Finalizing
+2023-03-08 00:49:37 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:830 finalize MainThread | Cam3d | Images captured: [WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_004935_brain_surface_image_left.png'), WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_004935_brain_surface_image_right.png')]
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1176 initialize MainThread | JsonRecorder initializing
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1187 test MainThread | JsonRecorder testing
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1381 test MainThread | NewScaleCoordinateRecorder | Testing
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1354 get_coordinates MainThread | NewScaleCoordinateRecorder | Retrieved coordinates: {'A': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 28, 288000), 'x_virtual': 2925.0, 'y_virtual': 3702.5, 'z_virtual': 5999.5, 'x': 3075.0, 'y': 3702.5, 'z': 0.5, 'serial_number': 'SN32148'}, 'B': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 30, 158000), 'x_virtual': 1520.0, 'y_virtual': 2768.5, 'z_virtual': 4579.5, 'x': 4480.0, 'y': 2768.5, 'z': 1420.5, 'serial_number': 'SN32142'}, 'C': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 35, 20000), 'x_virtual': 2777.5, 'y_virtual': 4172.0, 'z_virtual': 6000.5, 'x': 3222.5, 'y': 4172.0, 'z': -0.5, 'serial_number': 'SN32144'}, 'D': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 37, 843000), 'x_virtual': 2323.0, 'y_virtual': 2035.5, 'z_virtual': 5999.5, 'x': 3677.0, 'y': 2035.5, 'z': 0.5, 'serial_number': 'SN32149'}, 'E': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 41, 538000), 'x_virtual': 2310.0, 'y_virtual': 2838.5, 'z_virtual': 5999.5, 'x': 3690.0, 'y': 2838.5, 'z': 0.5, 'serial_number': 'SN32135'}, 'F': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 45, 120000), 'x_virtual': 1137.5, 'y_virtual': 2559.5, 'z_virtual': 5999.5, 'x': 4862.5, 'y': 2559.5, 'z': 0.5, 'serial_number': 'SN24273'}, 'label': ''}
+2023-03-08 00:49:38 | np_services.proxies | INFO | proxies.py:1393 test MainThread | NewScaleCoordinateRecorder | Test passed
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1354 get_coordinates MainThread | NewScaleCoordinateRecorder | Retrieved coordinates: {'A': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 28, 288000), 'x_virtual': 2925.0, 'y_virtual': 3702.5, 'z_virtual': 5999.5, 'x': 3075.0, 'y': 3702.5, 'z': 0.5, 'serial_number': 'SN32148'}, 'B': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 30, 158000), 'x_virtual': 1520.0, 'y_virtual': 2768.5, 'z_virtual': 4579.5, 'x': 4480.0, 'y': 2768.5, 'z': 1420.5, 'serial_number': 'SN32142'}, 'C': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 35, 20000), 'x_virtual': 2777.5, 'y_virtual': 4172.0, 'z_virtual': 6000.5, 'x': 3222.5, 'y': 4172.0, 'z': -0.5, 'serial_number': 'SN32144'}, 'D': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 37, 843000), 'x_virtual': 2323.0, 'y_virtual': 2035.5, 'z_virtual': 5999.5, 'x': 3677.0, 'y': 2035.5, 'z': 0.5, 'serial_number': 'SN32149'}, 'E': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 41, 538000), 'x_virtual': 2310.0, 'y_virtual': 2838.5, 'z_virtual': 5999.5, 'x': 3690.0, 'y': 2838.5, 'z': 0.5, 'serial_number': 'SN32135'}, 'F': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 45, 120000), 'x_virtual': 1137.5, 'y_virtual': 2559.5, 'z_virtual': 5999.5, 'x': 4862.5, 'y': 2559.5, 'z': 0.5, 'serial_number': 'SN24273'}, 'label': 'brain_surface_image'}
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1208 read MainThread | NewScaleCoordinateRecorder | Error encountered reading file C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2023-03-08 00:49:38 | np_services.proxies | DEBUG | proxies.py:1227 write MainThread | NewScaleCoordinateRecorder wrote to C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json
+2023-03-08 00:51:59 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:51:59 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:51:59 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:51:59 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json sessionID: 1252424595 -> 1252424595
+2023-03-08 00:51:59 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.port = 9000
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.timeout = 10.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.serialization = json
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.host = w10dtsm112722
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring MouseDirector.rsc_app_id = mousedirector
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.port = 5000
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.data = c$/ProgramData/AIBS_MPE/sync/data
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.gb_per_hr = 2.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.min_rec_hr = 3.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.serialization = pickle
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.host = w10dtsm112719
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Sync.rsc_app_id = sync_device
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.port = 50000
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.gb_per_hr = 2.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.min_rec_hr = 3.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.pretest_duration_sec = 5
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.data = c$/ProgramData/AIBS_MPE/mvr/data
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.timeout = 2.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.host = w10dtsm112722
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring VideoMVR.rsc_app_id = mvr-ni
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.port = 11000
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.data = c$/Users/svc_neuropix/cv3dImages
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.rsc_app_id = camviewer3d
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring Cam3d.host = w10dtsm112722
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.port = 5000
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.data = c$/ProgramData/AIBS_MPE/camstim/data
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.gb_per_hr = 0.2
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.min_rec_hr = 3.0
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.serialization = json
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.host = W10DT713938
+2023-03-08 00:51:59 | np_workflows.shared.base_experiments | DEBUG | base_experiments.py:145 apply_config MainThread | Hab | Configuring ScriptCamstim.rsc_app_id = camstim_agent
+2023-03-08 00:51:59 | np_services.proxies | DEBUG | proxies.py:733 initialize MainThread | MouseDirector | Initializing
+2023-03-08 00:51:59 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | mousedirector is running on w10dtsm112722
+2023-03-08 00:51:59 | np_services.proxies | DEBUG | proxies.py:165 get_proxy MainThread | Creating MouseDirector proxy to w10dtsm112722:9000
+2023-03-08 00:51:59 | np_services.proxies | INFO | proxies.py:139 initialize MainThread | Proxy(MouseDirector) initialized: ready for use
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:739 initialize MainThread | MouseDirector | Initialized with mouse 366122, user hannah.belski
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:144 test MainThread | Testing MouseDirector proxy
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:149 test MainThread | MouseDirector proxy connection to w10dtsm112722:9000 confirmed
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:157 test MainThread | Proxy(MouseDirector) tested successfully
+2023-03-08 00:52:03 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | sync_device is running on w10dtsm112719
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:165 get_proxy MainThread | Creating Sync proxy to w10dtsm112719:5000
+2023-03-08 00:52:03 | np_services.proxies | INFO | proxies.py:139 initialize MainThread | Proxy(Sync) initialized: ready for use
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:144 test MainThread | Testing Sync proxy
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Sync state: ('READY', '')
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:149 test MainThread | Sync proxy connection to w10dtsm112719:5000 confirmed
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:157 test MainThread | Proxy(Sync) tested successfully
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:911 get_proxy MainThread | Creating VideoMVR proxy to w10dtsm112722:50000
+2023-03-08 00:52:03 | np_services.mvr | DEBUG | mvr.py:122 connect_to_mvr MainThread | MVRConnector | Connecting on w10dtsm112722:50000
+2023-03-08 00:52:03 | np_services.mvr | DEBUG | mvr.py:140 connect_to_mvr MainThread | MVRConnector | Connection success: [{'mvr_response': 'connected to mvr'}]
+2023-03-08 00:52:03 | np_services.proxies | DEBUG | proxies.py:144 test MainThread | Testing VideoMVR proxy
+2023-03-08 00:52:06 | np_services.mvr | DEBUG | mvr.py:105 _send MainThread | MVRConnector | Sending: b'{"mvr_request": "get_camera_status"}'
+2023-03-08 00:52:08 | np_services.mvr | DEBUG | mvr.py:105 _send MainThread | MVRConnector | Sending: b'{"mvr_request": "get_camera_ids"}'
+2023-03-08 00:52:08 | np_services.proxies | DEBUG | proxies.py:149 test MainThread | VideoMVR proxy connection to w10dtsm112722:50000 confirmed
+2023-03-08 00:52:08 | np_services.proxies | DEBUG | proxies.py:157 test MainThread | Proxy(VideoMVR) tested successfully
+2023-03-08 00:52:08 | np_services.mvr | DEBUG | mvr.py:105 _send MainThread | MVRConnector | Sending: b'{"mvr_request": "start_display"}'
+2023-03-08 00:52:10 | np_services.proxies | INFO | proxies.py:899 initialize MainThread | VideoMVR initialized: ready for use
+2023-03-08 00:52:10 | np_services.proxies | DEBUG | proxies.py:144 test MainThread | Testing VideoMVR proxy
+2023-03-08 00:52:12 | np_services.mvr | DEBUG | mvr.py:105 _send MainThread | MVRConnector | Sending: b'{"mvr_request": "get_camera_status"}'
+2023-03-08 00:52:12 | np_services.proxies | DEBUG | proxies.py:149 test MainThread | VideoMVR proxy connection to w10dtsm112722:50000 confirmed
+2023-03-08 00:52:12 | np_services.proxies | DEBUG | proxies.py:157 test MainThread | Proxy(VideoMVR) tested successfully
+2023-03-08 00:52:12 | np_services.proxies | DEBUG | proxies.py:776 initialize MainThread | Cam3d | Initializing
+2023-03-08 00:52:12 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | camviewer3d is running on w10dtsm112722
+2023-03-08 00:52:12 | np_services.proxies | DEBUG | proxies.py:165 get_proxy MainThread | Creating Cam3d proxy to w10dtsm112722:11000
+2023-03-08 00:52:12 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:13 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:13 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:13 | np_services.proxies | INFO | proxies.py:139 initialize MainThread | Proxy(Cam3d) initialized: ready for use
+2023-03-08 00:52:14 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:15 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:15 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:16 | np_services.proxies | DEBUG | proxies.py:144 test MainThread | Testing Cam3d proxy
+2023-03-08 00:52:16 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:52:16 | np_services.proxies | DEBUG | proxies.py:149 test MainThread | Cam3d proxy connection to w10dtsm112722:11000 confirmed
+2023-03-08 00:52:16 | np_services.proxies | DEBUG | proxies.py:222 is_disk_space_ok MainThread | Cam3d free disk space on \\w10dtsm112722\c$: 298.7 GB
+2023-03-08 00:52:16 | np_services.proxies | DEBUG | proxies.py:157 test MainThread | Proxy(Cam3d) tested successfully
+2023-03-08 00:52:16 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | camstim_agent is running on W10DT713938
+2023-03-08 00:52:16 | np_services.utils | INFO | utils.py:48 start_rsc_app MainThread | phidget_server is running on W10DT713938
+2023-03-08 00:52:19 | np_services.proxies | ERROR | proxies.py:528 ensure_config MainThread | Error accessing ScriptCamstim data path: \\W10DT713938\c$\ProgramData\AIBS_MPE\camstim\data
+Traceback (most recent call last):
+  File "c:\Users\ben.hardcastle\github\np_workflows\.venv\Lib\site-packages\np_services\proxies.py", line 525, in ensure_config
+    _ = root.exists()
+        ^^^^^^^^^^^^^
+  File "C:\Users\ben.hardcastle\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1235, in exists
+    self.stat()
+  File "C:\Users\ben.hardcastle\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1013, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: '\\\\W10DT713938\\c$\\ProgramData\\AIBS_MPE\\camstim\\data'
+2023-03-08 00:53:37 | np_session.databases.lims2 | DEBUG | lims2.py:37 requester MainThread | Requesting http://lims2/ecephys_sessions.json?id=1252424595
+2023-03-08 00:53:37 | urllib3.connectionpool | DEBUG | connectionpool.py:228 _new_conn MainThread | Starting new HTTP connection (1): lims2:80
+2023-03-08 00:53:37 | urllib3.connectionpool | DEBUG | connectionpool.py:456 _make_request MainThread | http://lims2:80 "GET /ecephys_sessions.json?id=1252424595 HTTP/1.1" 200 None
+2023-03-08 00:53:37 | np_session.components.platform_json | INFO | platform_json.py:208 update MainThread | Updating 1252424595_366122_20230308_platformD1.json sessionID: 1252424595 -> 1252424595
+2023-03-08 00:53:38 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:53:49 | np_services.proxies | DEBUG | proxies.py:804 start MainThread | Cam3d | Starting
+2023-03-08 00:53:51 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Left image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_005349_brain_surface_image_left.png
+2023-03-08 00:53:51 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Right image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_005349_brain_surface_image_right.png
+2023-03-08 00:53:51 | np_services.proxies | DEBUG | proxies.py:818 finalize MainThread | Cam3d | Finalizing
+2023-03-08 00:53:52 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:53:52 | np_services.proxies | DEBUG | proxies.py:830 finalize MainThread | Cam3d | Images captured: [WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_005349_brain_surface_image_left.png'), WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_005349_brain_surface_image_right.png')]
+2023-03-08 00:53:52 | np_services.proxies | DEBUG | proxies.py:1354 get_coordinates MainThread | NewScaleCoordinateRecorder | Retrieved coordinates: {'A': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 28, 288000), 'x_virtual': 2925.0, 'y_virtual': 3702.5, 'z_virtual': 5999.5, 'x': 3075.0, 'y': 3702.5, 'z': 0.5, 'serial_number': 'SN32148'}, 'B': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 30, 158000), 'x_virtual': 1520.0, 'y_virtual': 2768.5, 'z_virtual': 4579.5, 'x': 4480.0, 'y': 2768.5, 'z': 1420.5, 'serial_number': 'SN32142'}, 'C': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 35, 20000), 'x_virtual': 2777.5, 'y_virtual': 4172.0, 'z_virtual': 6000.5, 'x': 3222.5, 'y': 4172.0, 'z': -0.5, 'serial_number': 'SN32144'}, 'D': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 37, 843000), 'x_virtual': 2323.0, 'y_virtual': 2035.5, 'z_virtual': 5999.5, 'x': 3677.0, 'y': 2035.5, 'z': 0.5, 'serial_number': 'SN32149'}, 'E': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 41, 538000), 'x_virtual': 2310.0, 'y_virtual': 2838.5, 'z_virtual': 5999.5, 'x': 3690.0, 'y': 2838.5, 'z': 0.5, 'serial_number': 'SN32135'}, 'F': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 45, 120000), 'x_virtual': 1137.5, 'y_virtual': 2559.5, 'z_virtual': 5999.5, 'x': 4862.5, 'y': 2559.5, 'z': 0.5, 'serial_number': 'SN24273'}, 'label': 'brain_surface_image'}
+2023-03-08 00:53:52 | np_services.proxies | DEBUG | proxies.py:1211 read MainThread | NewScaleCoordinateRecorder | Read from C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json
+2023-03-08 00:53:52 | np_services.proxies | DEBUG | proxies.py:1227 write MainThread | NewScaleCoordinateRecorder wrote to C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json
+2023-03-08 00:54:12 | np_session.components.platform_json | DEBUG | platform_json.py:124 write MainThread | PlatformJson wrote to //allen/programs/mindscope/workgroups/np-exp/habituation/1252424595_366122_20230308/1252424595_366122_20230308_platformD1.json
+2023-03-08 00:54:14 | np_services.proxies | DEBUG | proxies.py:804 start MainThread | Cam3d | Starting
+2023-03-08 00:54:16 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Left image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_005414_brain_surface_image_left.png
+2023-03-08 00:54:16 | np_services.proxies | DEBUG | proxies.py:812 start MainThread | Cam3d | Right image saved to \\w10dtsm112722\c$\Users\svc_neuropix\cv3dImages\20230308_005414_brain_surface_image_right.png
+2023-03-08 00:54:16 | np_services.proxies | DEBUG | proxies.py:818 finalize MainThread | Cam3d | Finalizing
+2023-03-08 00:54:17 | np_services.proxies | DEBUG | proxies.py:173 get_state MainThread | Cam3d state: ['READY', 'CAMERAS_OPEN']
+2023-03-08 00:54:17 | np_services.proxies | DEBUG | proxies.py:830 finalize MainThread | Cam3d | Images captured: [WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_005414_brain_surface_image_left.png'), WindowsPath('//w10dtsm112722/c$/Users/svc_neuropix/cv3dImages/20230308_005414_brain_surface_image_right.png')]
+2023-03-08 00:54:17 | np_services.proxies | DEBUG | proxies.py:1354 get_coordinates MainThread | NewScaleCoordinateRecorder | Retrieved coordinates: {'A': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 28, 288000), 'x_virtual': 2925.0, 'y_virtual': 3702.5, 'z_virtual': 5999.5, 'x': 3075.0, 'y': 3702.5, 'z': 0.5, 'serial_number': 'SN32148'}, 'B': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 30, 158000), 'x_virtual': 1520.0, 'y_virtual': 2768.5, 'z_virtual': 4579.5, 'x': 4480.0, 'y': 2768.5, 'z': 1420.5, 'serial_number': 'SN32142'}, 'C': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 35, 20000), 'x_virtual': 2777.5, 'y_virtual': 4172.0, 'z_virtual': 6000.5, 'x': 3222.5, 'y': 4172.0, 'z': -0.5, 'serial_number': 'SN32144'}, 'D': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 37, 843000), 'x_virtual': 2323.0, 'y_virtual': 2035.5, 'z_virtual': 5999.5, 'x': 3677.0, 'y': 2035.5, 'z': 0.5, 'serial_number': 'SN32149'}, 'E': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 41, 538000), 'x_virtual': 2310.0, 'y_virtual': 2838.5, 'z_virtual': 5999.5, 'x': 3690.0, 'y': 2838.5, 'z': 0.5, 'serial_number': 'SN32135'}, 'F': {'last_moved': datetime.datetime(2023, 3, 7, 16, 40, 45, 120000), 'x_virtual': 1137.5, 'y_virtual': 2559.5, 'z_virtual': 5999.5, 'x': 4862.5, 'y': 2559.5, 'z': 0.5, 'serial_number': 'SN24273'}, 'label': 'brain_surface_image'}
+2023-03-08 00:54:17 | np_services.proxies | DEBUG | proxies.py:1211 read MainThread | NewScaleCoordinateRecorder | Read from C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json
+2023-03-08 00:54:17 | np_services.proxies | DEBUG | proxies.py:1227 write MainThread | NewScaleCoordinateRecorder wrote to C:\Users\ben.hardcastle\AppData\Local\Temp\newscale_coords_2023-03-08_004938.json
